@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "ci:clean": "rimraf ./dist",
     "ci:test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage",
-    "ci:build": "ng build --configuration production --base-href https://github.com/QueenAnnesRevenge/TP-DEVOPS.git"
+    "ci:build": "ng build --configuration production --base-href https://queenannesrevenge.github.io/angular-app/"
   },
   "private": true,
   "dependencies": {
