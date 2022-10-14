@@ -42,15 +42,19 @@ jobs:
 #      - name: Clean Distribution Directory
 #        run: npm run ci:clean
         
-      - name: Build Application
-        run: npm run build
+      #- name: Build Application
+      #  run: npm run build
+      
+      # Build project
+      - name: Build project 
+        run: npm run ci:build
       
       - name: List Files in Distribution Directory
         run: ls -R ./dist
 
       # Build project
       - name: Build project 
-        run: npm run build:prod
+        run: npm run ci:build
         
       # Deploy Requirements:
       #- name: Install Deploy Requirement
